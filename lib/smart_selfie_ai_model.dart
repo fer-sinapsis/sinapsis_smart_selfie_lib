@@ -4,8 +4,8 @@ import 'dart:typed_data';
 
 import 'package:flutter/services.dart';
 
-class SinapsisSmartSelfieLib {
-  static const MethodChannel _channel = MethodChannel('sinapsis_smart_selfie_lib');
+class SmartSelfieAiModel {
+  static const MethodChannel _channel = MethodChannel('smart_selfie_ai_model');
 
   static Future<Map> getDataFromSelfie(Uint8List imageBytes) async {
     try {
