@@ -1,4 +1,4 @@
-package com.wecare.smart_selfie_ai_model
+package com.sinapsis.smart_selfie_ai_model
 
 class SelfieDataInferenceException(val code: String, message: String? = null) : Exception(message)
 
